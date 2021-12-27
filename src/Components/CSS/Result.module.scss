@@ -1,0 +1,37 @@
+.result__heading{
+    font-size: 3rem;
+    color:var(--primary-color);
+    text-align: center;
+}
+.coupleNames__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .coupleName{
+        font-size: 3rem;
+        color:red;
+    }
+
+    .image__container{
+        display: grid;
+        place-items: center;
+        width: 5rem;
+        height: 5rem;
+    }
+}
+footer{
+    .note{
+        font-size:2rem;
+        b{
+            color:var(--primary-color);
+        }
+    
+    }
+}
+.congratulate{
+    font-size: 2.5rem;
+    color:var(--primary-color);
+    font-weight: 600;
+    text-align: center;
+}
